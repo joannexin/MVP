@@ -1,0 +1,28 @@
+{
+  "name": "course.mvp.exercise",
+  "version": "1.0.0",
+  "description": "mini-yelp <!-- > This material was originally posted [here](http://www.quora.com/What-is-Amazons-approach-to-product-development-and-product-management). It is reproduced here for posterities sake.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joannexin/MVP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joannexin/MVP/issues"
+  },
+  "homepage": "https://github.com/joannexin/MVP#readme",
+  "dependencies": {
+    "@google/maps": "^0.2.1",
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
+}

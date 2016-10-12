@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+	<meta charset="utf-8">
+	<script src="modules/angular/angular.js"></script>
+	<script src="modules/angular-route/angular-route.js"></script>
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<link rel="shortcut icon" href="../assets/logo.png" />
+	<script src="app.js"></script>
+	<script src="views/ratings/rating.js"></script>
+	<script src="views/students/students.js"></script>
+	<title>mini-yelp</title>
+</head>
+<body>
+	<div>
+		<a><img id="logo" src="../assets/logo.png"></a>
+		<p id="quote">“Rate me today and I'll get better tomorrow”</p>
+	</div>
+	<div class="link">
+		<a href="#/">Homepage</a>
+		<a href="#/ratings">Start Rating</a>
+		<a href="#/students">View All</a>
+	</div>
+	<div>
+
+	</div>
+	<div ng-view></div>
+</body>
+</html>
