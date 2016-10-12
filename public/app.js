@@ -1,9 +1,11 @@
-angular.module('app', [
+var app = angular.module('app', [
 	'app.ratings',
 	'app.viewall',
+	'app.services',
 	'ngRoute'
-])
-.config(function($routeProvider) {
+]);
+
+app.config(function($routeProvider) {
 	$routeProvider
 	.when('/ratings', {
 		templateUrl: 'views/ratings/rating.html',
