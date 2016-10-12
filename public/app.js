@@ -1,5 +1,6 @@
 var app = angular.module('app', [
 	'app.ratings',
+	'app.home',
 	'app.viewall',
 	'app.services',
 	'ngRoute'
@@ -7,6 +8,10 @@ var app = angular.module('app', [
 
 app.config(function($routeProvider) {
 	$routeProvider
+	.when('/', {
+		templateUrl: 'views/home/home.html',
+		controller: 'homeController'
+	})
 	.when('/ratings', {
 		templateUrl: 'views/ratings/rating.html',
 		controller: 'ratingController'

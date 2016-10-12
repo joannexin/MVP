@@ -1,4 +1,4 @@
-/*#logo {
+#logo {
 	height: 100px;
 	background-repeat: no-repeat;
 	background-position: left;
@@ -7,6 +7,10 @@
 #quote {
 	font-style: italic;
 	color: red;
+}
+
+body {
+	background-color: powderblue;
 }
 
 .link {
@@ -52,24 +56,19 @@
 }
 
 .rate {
-  display: table;
+  text-align: center;
 }
 
-.submit {
-  float: right;
+.searchBox {
+	text-align: center;
 }
 
-/*.rating {
-  unicode-bidi: bidi-override;
-  direction: rtl;
+.home {
+	color: blue;
+	text-align: center;
 }
-.rating > span {
-  display: inline-block;
-  position: relative;
-  width: 1.1em;
+
+.rate {
+	color: blue;
+	text-align: center;
 }
-.rating > span:hover:before,
-.rating > span:hover ~ span:before {
-   content: "\2605";
-   position: absolute;
-}*/*/

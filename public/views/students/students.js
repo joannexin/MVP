@@ -4,11 +4,12 @@ angular.module('app.viewall', [])
 	$scope.students = [];
   var getStudents = function() {
     viewallFactory.getStudents().then(function(data) {
-      $scope.students = data;
+			for(var key in data) {
+				$scope.students.push(data[key])
+			}
     })
   }
   getStudents();
-
 
 	$scope.hidden = true;
 	$scope.show = function() {
