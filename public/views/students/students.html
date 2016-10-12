@@ -2,7 +2,7 @@
 <button class="submit" ng-click="show()">show name</button>
 
 <div class="searchBox">
-	<span id="searchStudent">Search student:</span> <input type="text" ng-model="query"><br><br>
+	Search student:<input type="text" ng-model="query"><br><br>
 </div>
 
 <div class="rate" ng-repeat="person in students | filter:query">

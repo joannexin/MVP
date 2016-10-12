@@ -77,14 +77,5 @@ var getWinner = function() {
 	return winner;
 }
 
-// app.get('/viewall', function(req, res) {
-// 	res.sendFile(path.join(__dirname, "../public/views/viewall/viewall.html"));
-// })
-
-// app.get('/info', function(req, res) {
-// 	res.sendFile(path.join(__dirname, "../public/views/viewall/viewall.html"));
-// })
-
-
 app.listen(port);
 console.log("Listening to port number " + port);
