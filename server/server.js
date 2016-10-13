@@ -2,15 +2,11 @@ var http = require('http');
 var path = require('path');
 var express = require('express');
 var bodyParser = require('body-parser');
-// var googleMapsClient = require('@google/maps').createClient({
-//   key: 'AIzaSyALr-1jYUsM5_YFLYpbDuxTbuEUIsZJoUI'
-// });
 
 var app = express();
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-
 app.use(express.static(path.join(__dirname, '../public')));
 app.use('/modules', express.static(path.join(__dirname, '../node_modules')));
 
